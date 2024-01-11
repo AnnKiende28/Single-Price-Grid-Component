@@ -2,6 +2,18 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    /*#card-bottom-sub p:nth-child(3) {
+        font-weight: lighter;
+        font-size: 13px;
+    }*/
+
+}
+
 body{
     font-family: 'San Francisco', 'Helvetica Neue', Arial, sans-serif;
     font-size: 15px;
@@ -9,8 +21,8 @@ body{
 
 /* card */
 .main {
-    width: 60%;
-    margin: auto;
+    max-width: 500px;
+    margin: 0 auto;
     border: 1px solid rgba(112, 112, 112, 0.2);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
@@ -63,6 +75,7 @@ body{
 
 #card-bottom-sub p:nth-child(3) {
     font-weight: bold;
+    font-size: 13px;
 }
 
 button {
